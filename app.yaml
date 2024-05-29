@@ -3,7 +3,7 @@
 # See https://cloud.google.com/appengine/docs/standard/python3/config/appref
 
 # Recommended to set to Python 3.7 runtime or later
-runtime: python37
+runtime: python310
 
 # Set App Engine instance class (defaults to F1)
 # See https://cloud.google.com/appengine/docs/standard/#instance_classes
