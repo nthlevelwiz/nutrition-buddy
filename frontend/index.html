@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Data Spreadsheet</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="header">NOOT BUD</div>
+    <div class="form-container">
+        <input type="text" id="day" placeholder="Day (e.g., today, 5/29)" value="today, 5/29">
+        <input type="text" id="meal" placeholder="Meal (e.g., breakfast)" value="lunch">
+        <input type="text" id="food-item" placeholder="Food item name" value="eggs">
+        <input type="number" id="calories" placeholder="Calories" value="300">
+        <input type="number" id="weight" placeholder="Weight" value="20">
+        <input type="number" id="calories-weight" placeholder="Calories/Weight" value="15">
+        <button onclick="addRow()">New Food Item</button>
+    </div>
+
+    <div class="table-container">
+        <table id="food-table">
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Day's Calories</th>
+                    <th>Meal</th>
+                    <th>Meal's Calories</th>
+                    <th>Food Item</th>
+                    <th>Calories</th>
+                    <th>Weight</th>
+                    <th>Calories/Weight</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
